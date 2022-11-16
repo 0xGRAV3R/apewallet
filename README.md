@@ -54,6 +54,6 @@ yarn chain
 
 📱 Open http://localhost:3000 to see the app
 
-🍴 Btw this is a fork of eth-scaffold punkwallet
+🍴 Btw this is a fork of eth-scaffold punkwallet 🐸✨
 
 
