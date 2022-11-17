@@ -1307,9 +1307,9 @@ function App(props) {
       )}
 
       <div style={{ zIndex: -1, padding: 64, opacity: 0.5, fontSize: 12 }}>
-        created with <span style={{ marginRight: 4 }}>🏗</span>
-        <a href="https://github.com/austintgriffith/scaffold-eth#-scaffold-eth" target="_blank">
-          scaffold-eth
+        made with <span style={{ marginRight: 4 }}>🐸</span>
+        <a href="https://github.com/0xPASTE/maxpepewallet" target="_blank">
+          frog
         </a>
       </div>
       <div style={{ padding: 32 }} />
