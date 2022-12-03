@@ -1178,7 +1178,8 @@ function App(props) {
         <Button
           style={{ margin: 8, marginTop: 16 }}
           onClick={() => {
-            window.open("https://zapper.fi/account/" + address + "?tab=history");
+            window.open("https://ontokens.xyz/account/" + address + "?tab=history");
+            //window.open("https://ontokens.xyz/");
           }}
         >
           <span style={{ marginRight: 8 }}>📜</span>History
@@ -1188,6 +1189,7 @@ function App(props) {
           style={{ margin: 8, marginTop: 16 }}
           onClick={() => {
             window.open("https://zapper.fi/account/" + address);
+            //window.open("https://ontokens.xyz/");
           }}
         >
           <span style={{ marginRight: 8 }}>👛</span> Inventory

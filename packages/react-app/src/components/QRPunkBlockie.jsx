@@ -48,7 +48,7 @@ export default function QRPunkBlockie(props) {
           Copied Address
           <div style={{position:"absolute",left:-60,top:-14}}>
             <div style={{position:"relative",width:iconPunkSize, height:iconPunkSize-1, overflow: "hidden"}}>
-              <img src="/punks.png" style={{position:"absolute",left:-iconPunkSize*x,top:(-iconPunkSize*y),width:iconPunkSize*100, height:iconPunkSize*100,imageRendering:"pixelated"}} />
+              <img src="/smallsize.png" style={{position:"absolute",left:-iconPunkSize*x,top:(-iconPunkSize*y),width:iconPunkSize*100, height:iconPunkSize*100,imageRendering:"pixelated"}} />
             </div>
           </div>
          </span>
@@ -61,7 +61,7 @@ export default function QRPunkBlockie(props) {
 
       <div style={{position:"absolute",left:hardcodedSizeForNow/2-53,top:hardcodedSizeForNow/2-65}}>
         <div style={{position:"relative",width:punkSize, height:punkSize-1, overflow: "hidden"}}>
-          <img src="/punks.png" style={{position:"absolute",left:-punkSize*x,top:(-punkSize*y)-1,width:punkSize*100, height:punkSize*100,imageRendering:"pixelated"}} />
+          <img src="/smallsize.png" style={{position:"absolute",left:-punkSize*x,top:(-punkSize*y)-1,width:punkSize*100, height:punkSize*100,imageRendering:"pixelated"}} />
         </div>
       </div>
 
@@ -69,7 +69,7 @@ export default function QRPunkBlockie(props) {
         level={"H"}
         includeMargin={false}
         //ethereum:0x34aA3F359A9D614239015126635CE7732c18fDF3
-        value={props.address?props.address:""}//"https://punkwallet.io/"+
+        value={props.address?props.address:""}//"https://maxwallet.io/"+
         size={hardcodedSizeForNow}
         imageSettings={{width:105,height:105,excavate:true,src:""}}
       /> : ""}

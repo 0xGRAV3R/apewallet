@@ -9,7 +9,7 @@ export default function Header( props ) {
       <PageHeader
         title={(
           <a href="https://maxpepewallet.io" >
-            {window.innerWidth<600?"🧑‍🎤":"🧑‍🎤  PunkWallet.io"}
+            {window.innerWidth<600?"🐸":"🐸  MaxWallet.io"}
           </a>
         )}
         subTitle=<a href="https://github.com/">
