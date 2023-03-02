@@ -1,4 +1,4 @@
-# 🐸 Maxpepe Burner Wallet 
+# 🐸 Ape Burner Wallet 
 
 > An open source Ethereum web wallet.
 
